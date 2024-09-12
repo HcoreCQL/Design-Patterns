@@ -5,10 +5,15 @@
 //  Created by Orlando‘s Mac on 2024/9/12.
 //
 
-#include <iostream>
+#include <memory>
+#include "App.hpp"
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+
+int main( ) {
+//保证只在堆区创建App对象，且自动释放
+// std::shared_ptr<App> app( new App()); 也可 
+    std::shared_ptr<App> app = std::make_shared<App>( ); 
+    app->init( ); //初始化
+    app->run( ); //运行
+    app->term( ); //终止
 }

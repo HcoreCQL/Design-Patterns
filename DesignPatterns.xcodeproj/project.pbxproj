@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		555A4BC52C92DF1E00796846 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555A4BC42C92DF1E00796846 /* main.cpp */; };
+		555A4BCD2C92DF5900796846 /* App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555A4BCB2C92DF5900796846 /* App.cpp */; };
+		555A4BD12C92E04000796846 /* MenuMgr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555A4BCF2C92E04000796846 /* MenuMgr.cpp */; };
+		555A4BD42C92E0F300796846 /* MenuType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555A4BD22C92E0F300796846 /* MenuType.cpp */; };
+		555A4BD72C92E14B00796846 /* Menu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555A4BD52C92E14B00796846 /* Menu.cpp */; };
+		555A4BDA2C92E33000796846 /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555A4BD82C92E33000796846 /* Map.cpp */; };
+		555A4BDD2C92E35B00796846 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555A4BDB2C92E35B00796846 /* Player.cpp */; };
+		555A4BE02C92E48500796846 /* Getch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 555A4BDE2C92E48500796846 /* Getch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +32,20 @@
 /* Begin PBXFileReference section */
 		555A4BC12C92DF1E00796846 /* DesignPatterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPatterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		555A4BC42C92DF1E00796846 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		555A4BCB2C92DF5900796846 /* App.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = App.cpp; sourceTree = "<group>"; };
+		555A4BCC2C92DF5900796846 /* App.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = App.hpp; sourceTree = "<group>"; };
+		555A4BCF2C92E04000796846 /* MenuMgr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MenuMgr.cpp; sourceTree = "<group>"; };
+		555A4BD02C92E04000796846 /* MenuMgr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MenuMgr.hpp; sourceTree = "<group>"; };
+		555A4BD22C92E0F300796846 /* MenuType.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MenuType.cpp; sourceTree = "<group>"; };
+		555A4BD32C92E0F300796846 /* MenuType.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MenuType.hpp; sourceTree = "<group>"; };
+		555A4BD52C92E14B00796846 /* Menu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Menu.cpp; sourceTree = "<group>"; };
+		555A4BD62C92E14B00796846 /* Menu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Menu.hpp; sourceTree = "<group>"; };
+		555A4BD82C92E33000796846 /* Map.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		555A4BD92C92E33000796846 /* Map.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		555A4BDB2C92E35B00796846 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		555A4BDC2C92E35B00796846 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		555A4BDE2C92E48500796846 /* Getch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Getch.cpp; sourceTree = "<group>"; };
+		555A4BDF2C92E48500796846 /* Getch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Getch.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,20 @@
 			isa = PBXGroup;
 			children = (
 				555A4BC42C92DF1E00796846 /* main.cpp */,
+				555A4BCB2C92DF5900796846 /* App.cpp */,
+				555A4BCC2C92DF5900796846 /* App.hpp */,
+				555A4BCF2C92E04000796846 /* MenuMgr.cpp */,
+				555A4BD02C92E04000796846 /* MenuMgr.hpp */,
+				555A4BD22C92E0F300796846 /* MenuType.cpp */,
+				555A4BD32C92E0F300796846 /* MenuType.hpp */,
+				555A4BD52C92E14B00796846 /* Menu.cpp */,
+				555A4BD62C92E14B00796846 /* Menu.hpp */,
+				555A4BD82C92E33000796846 /* Map.cpp */,
+				555A4BD92C92E33000796846 /* Map.hpp */,
+				555A4BDB2C92E35B00796846 /* Player.cpp */,
+				555A4BDC2C92E35B00796846 /* Player.hpp */,
+				555A4BDE2C92E48500796846 /* Getch.cpp */,
+				555A4BDF2C92E48500796846 /* Getch.hpp */,
 			);
 			path = DesignPatterns;
 			sourceTree = "<group>";
@@ -119,7 +154,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				555A4BDA2C92E33000796846 /* Map.cpp in Sources */,
+				555A4BDD2C92E35B00796846 /* Player.cpp in Sources */,
+				555A4BD42C92E0F300796846 /* MenuType.cpp in Sources */,
 				555A4BC52C92DF1E00796846 /* main.cpp in Sources */,
+				555A4BD12C92E04000796846 /* MenuMgr.cpp in Sources */,
+				555A4BE02C92E48500796846 /* Getch.cpp in Sources */,
+				555A4BCD2C92DF5900796846 /* App.cpp in Sources */,
+				555A4BD72C92E14B00796846 /* Menu.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
